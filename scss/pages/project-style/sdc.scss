@@ -1,0 +1,49 @@
+.sdc-theme{
+  .eclipse-img{
+    &:after{
+      background: rgba(70, 47, 103, 0.8);
+    }
+  }
+  .btn-default {
+    color: #462f67 !important;
+    width: 225px;
+    line-height: 28px;
+    height: 46px;
+  }
+  .title-border-b {
+    &:before {
+      border-color: #462f67 !important;
+    }
+  }
+  .text-solution{
+    p{
+      &:before{
+        border-color:#462f67 !important;
+      }
+    }
+  }
+  .list-item{
+    &:before {
+      border-color: #462f67 !important;
+    }
+  }
+  .line{
+    span{
+      background:  #462f67 !important;
+    }
+  }
+  .wrapper-disc{
+    span{
+      background:  #462f67 !important;
+    }
+  }
+  .wrapper-circle{
+    span{
+      border-color: #462f67 !important;
+    }
+  }
+}
+
+
+
+

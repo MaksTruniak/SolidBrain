@@ -1,0 +1,102 @@
+.bg-portfolio{
+	background-image: url(../img/bg-portfolio.png);
+}
+
+.title-page{
+	position: relative;
+	z-index: 999;
+	font-size: 48px;
+	font-weight: bold;
+	>span{
+		font: 48px 'Roboto-Bold', sans-serif;
+	}
+}
+
+  .nav-tabs{
+	.nav-link{
+		font-size: 17px;
+		color: $color-black;
+		border: none;
+		background-color: transparent;
+		&:before{
+			bottom: 0;
+		}
+		&:hover{
+			color: $color-default;
+			transition: color .15s linear;
+		}
+	}
+	.nav-item{
+		padding-left: 0;
+	}
+	.nav-link.active{
+		background-color: transparent !important;
+		color: $color-default;
+	}
+}
+
+.tab-content{
+	padding-top: 60px;
+}
+
+
+.nav-link.active{
+	@extend .nav-link-border-bootom;
+}
+
+.item-project{
+	display: inline-block;
+	img{
+		box-shadow: 0 0 6px 6px rgba($color-black,.03);
+		@extend .border-radius-btn;
+	}
+	&:nth-child(odd){
+		.img-project {
+			padding-right: 0;
+		}
+	}
+	&:nth-child(even){
+		.row{
+			-webkit-flex-direction: row-reverse;
+			flex-direction: row-reverse;
+		}
+		.img-project {
+			padding-left: 0;
+			img{
+				float: right;
+			}
+		}
+	}
+}
+
+.title-project{
+	font: 24px 'Roboto-Regular', sans-serif;
+	color: $color-default !important;
+	display: block;
+}
+
+.body-project{
+	padding: 0 100px;
+}
+
+.desc-project{
+	font: 16px 'Roboto-Thin', sans-serif;
+	color: rgba($color-black, .8);
+	line-height: 30px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    max-height: 12em;
+}
+
+.data{
+	color: $color-white !important;
+	font-size: 17px !important;
+	display: block;
+	text-align: center;
+	position: relative;
+	z-index: 999;
+}
+

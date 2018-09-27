@@ -1,0 +1,156 @@
+.bg-web-develop{
+  background-image: url(../img/bg-web-develop.png);
+}
+
+.section-web{
+  .block-offset {
+    padding: 100px;
+  }
+  .sub-title{
+    margin-bottom: 0;
+  }
+}
+
+
+.bg-technology{
+  background: url(../img/bg-technology.png) no-repeat;
+  background-size: cover;
+  display: table;
+  width: 100%  ;
+}
+
+.name-technology{
+  font:19px 'Roboto-Regular', sans-serif;
+  color: rgba($color-white, 0.86);
+  margin-bottom: 15px;
+}
+
+.item-technology{
+  padding-left: 20px;
+  position: relative;
+  &:first-child{
+    min-height: 268px;
+    margin-bottom: 35px;
+  }
+}
+
+.desc-technology{
+  font:17px 'Roboto-Light', sans-serif;
+  color: rgba($color-white, 0.8);
+  line-height: 25px;
+}
+
+.border-desk{
+  &:after{
+    width: 102px;
+    display: block;
+    content: "";
+    border-bottom: 1px solid $color-default;
+    margin: 15px 0;
+  }
+}
+
+.content-technology{
+  z-index: 99999;
+  position: relative;
+  padding: 0 20px;
+}
+
+.item-technology{
+  &:before{
+    font: 18px 'Roboto-Medium', sans-serif;
+    color: $color-default;
+    position: absolute;
+    left: -10px;
+  }
+}
+
+$technology: ( 1: '1', 2: '2', 3: '3', 4: '4', 5: '5', 6: '6');
+
+@each $name, $value in $technology {
+  .technology-#{$name} {
+    &:before{
+      content: $value;
+    }
+  }
+}
+
+.content-technology{
+  .row{
+    margin: 0 -20px;
+  }
+}
+
+.stage-number{
+  position: relative;
+  margin: 20px 0 25px;
+  &:before{
+    width: 100%;
+    border-bottom: 2px solid $color-default;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 11px;
+  }
+  span{
+    width: 35px;
+    display: block;
+    margin: 0 auto;
+    z-index: 999;
+    background: $color-white;
+    color: $color-default;
+    position: relative;
+    text-align: center;
+  }
+}
+
+.col-technology{
+  padding: 0 20px;
+}
+
+.bg-1с-develop{
+  background-image: url(../img/bg-1c-develop.png);
+}
+
+.bg-technology-1c{
+  background: url(../img/bg-technology-1c.png);
+  background-size: cover;
+  display: table;
+  width: 100%;
+}
+
+.section-technology-1c{
+  .item-technology{
+    &:first-child{
+      min-height: auto;
+      margin-bottom: 50px;
+    }
+  }
+  .content-technology{
+    margin: 95px 0 115px;
+  }
+}
+
+.bg-security-system{
+  background-image: url(../img/bg-security-systems.png);
+}
+
+.bg-technology-security{
+  background: url(../img/bg-technology-security.png);
+  background-size: cover;
+  display: table;
+  width: 100%;
+}
+
+.section-technology-security{
+  .item-technology{
+    &:first-child{
+      min-height: auto;
+      margin-bottom: 50px;
+    }
+  }
+  .content-technology{
+    margin: 95px 0 115px;
+  }
+}

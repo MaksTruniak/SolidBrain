@@ -1,0 +1,49 @@
+.azbuka-theme{
+  .eclipse-img{
+    &:after{
+      background: rgba(224, 176, 0, 0.3);
+    }
+  }
+  .btn-default {
+    color: #e0bb00 !important;
+    width: 225px;
+    line-height: 28px;
+    height: 46px;
+  }
+  .title-border-b {
+    &:before {
+      border-color: #e0bb00 !important;
+    }
+  }
+  .text-solution{
+    p{
+      &:before{
+        border-color:#e0bb00 !important;
+      }
+    }
+  }
+  .list-item{
+    &:before {
+      border-color: #e0bb00 !important;
+    }
+  }
+  .line{
+    span{
+      background:  #e0bb00 !important;
+    }
+  }
+  .wrapper-disc{
+    span{
+      background:  #e0bb00 !important;
+    }
+  }
+  .wrapper-circle{
+    span{
+      border-color: #e0bb00 !important;
+    }
+  }
+}
+
+
+
+

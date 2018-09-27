@@ -1,0 +1,49 @@
+.solidhome-theme{
+  .eclipse-img{
+    &:after{
+      background: rgba(55, 107, 40, 0.6);
+    }
+  }
+  .btn-default {
+    color: #376b28 !important;
+    width: 225px;
+    line-height: 28px;
+    height: 46px;
+  }
+  .title-border-b {
+    &:before {
+      border-color: #376b28 !important;
+    }
+  }
+  .text-solution{
+    p{
+      &:before{
+        border-color:#376b28 !important;
+      }
+    }
+  }
+  .list-item{
+    &:before {
+      border-color: #376b28 !important;
+    }
+  }
+  .line{
+    span{
+      background:  #376b28 !important;
+    }
+  }
+  .wrapper-disc{
+    span{
+      background:  #376b28 !important;
+    }
+  }
+  .wrapper-circle{
+    span{
+      border-color: #376b28 !important;
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,49 @@
+.asg-theme{
+  .eclipse-img{
+    &:after{
+      background: rgba(#af5c01,.4);
+    }
+  }
+  .btn-default {
+    color: #d66f00 !important;
+    width: 225px;
+    line-height: 28px;
+    height: 46px;
+  }
+  .title-border-b {
+    &:before {
+      border-color: #ef7d03 !important;
+    }
+  }
+  .text-solution{
+    p{
+      &:before{
+        border-color:#ef7d03 !important;
+      }
+    }
+  }
+  .list-item{
+    &:before {
+      border-color: #ef7d03 !important;
+    }
+  }
+  .line{
+    span{
+      background:  #ef7d03 !important;
+    }
+  }
+  .wrapper-disc{
+    span{
+      background:  #ef7d03 !important;
+    }
+  }
+  .wrapper-circle{
+    span{
+      border-color: #ef7d03 !important;
+    }
+  }
+}
+
+
+
+

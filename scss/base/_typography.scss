@@ -1,0 +1,82 @@
+@import "color";
+
+*{
+    font-family: "Roboto-Regular", sans-serif;
+}
+
+/* font-family: "Circe"; */
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("../fonts/roboto/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/roboto/Roboto-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Black";
+    src: url("../fonts/roboto/Roboto-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../fonts/roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url("../fonts/roboto/Roboto-Thin.ttf") format("truetype");
+}
+
+
+/*
+  Flaticon icon font: Flaticon
+  Creation date: 20/12/2017 15:16
+  */
+
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon/Flaticon.eot");
+    src: url("../fonts/flaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/flaticon/Flaticon.woff") format("woff"),
+    url("../fonts/flaticon/Flaticon.ttf") format("truetype"),
+    url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: "Flaticon";
+        src: url("../fonts/flaticon/Flaticon.svg#Flaticon") format("svg");
+    }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.flaticon-maps-and-flags:before { content: "\f100"; }
+.flaticon-arrows-1:before { content: "\f101"; }
+.flaticon-checked:before { content: "\f102"; }
+.flaticon-arrows:before { content: "\f103"; }
+.flaticon-calendar:before { content: "\f104"; }
+.flaticon-sports:before { content: "\f105"; }
+.flaticon-placeholder-1:before { content: "\f106"; }
+.flaticon-linkedin-logo:before { content: "\f107"; }
+.flaticon-attachment:before { content: "\f108"; }
+.flaticon-facebook-logo:before { content: "\f109"; }
+.flaticon-phone-receiver:before { content: "\f10a"; }
+.flaticon-placeholder:before { content: "\f10b"; }
+.flaticon-earth-globe-symbol-of-grid:before { content: "\f10c"; }
+.flaticon-close-envelope:before { content: "\f10d"; }

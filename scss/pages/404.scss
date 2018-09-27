@@ -1,0 +1,36 @@
+.bg-error{
+    background: url(../img/bg-404.png) no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 100vh;
+    >.row{
+        height: 100vh;
+    }
+}
+
+.page-error{
+    h4{
+        color: $color-black;
+        font: 150px 'Roboto-Black', sans-serif;
+        letter-spacing: 7px;
+        opacity: 0.16;
+    }
+    p{
+        color: $color-black;
+        font: 25px 'Roboto-Medium', sans-serif;
+        letter-spacing: 1px;
+        opacity: 0.2;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+}
+
+.block-error{
+    position: absolute;
+    bottom: 30%;
+    display: table;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 230px;
+}

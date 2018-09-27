@@ -1,0 +1,193 @@
+footer{
+	padding-bottom: 40px !important;
+}
+
+footer.eclipse-img{
+	&:after{
+		background: rgba($color-eclips, 0.71);
+	}
+}
+.bg-footer{
+	background: url(../img/footer-background.png) no-repeat 50%;
+	background-size: cover;
+}
+
+.ft-wrapper{
+	z-index: 999;
+	position: relative;
+	padding: 0 15px;
+}
+
+.vertical{
+	display: table;
+	>*{
+		vertical-align: middle;
+		display: table-cell;
+	}
+}
+
+.item-contact-i{
+	span{
+		font-size: 15px;
+		padding-left: 50px;
+	}
+	&:not(:last-child){
+		margin-bottom: 40px;
+	}
+}
+
+.form-contact{
+	.form-control{
+		padding-left: 35px;
+		&:focus+.focus-underline-from-center{
+			&:before{
+				left: 15px;
+				right: 15px;
+			}
+		}
+	}
+	.form-group{
+		&:not(:last-child){
+			margin-bottom: 23px;
+		}
+	}
+	.btn-second{
+		margin-top: 40px;
+	}
+	.custom-file{
+		margin: 45px 50px 0 0;
+	}
+}
+
+.form-group{
+	position: relative;
+}
+
+.focus-underline-from-center{
+	position: absolute;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+	margin: 0;
+	&:before{
+		content: "";
+		position: absolute;
+		left: 50%;
+		right: 50%;
+		bottom: 0;
+		background: $color-white;
+		height: 1px;
+		-webkit-transition-property: left, right;
+		transition-property: left, right;
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-webkit-transition-timing-function: ease-out;
+		transition-timing-function: ease-out;
+	}
+}
+
+.fb-wrapper{
+	z-index: 999;
+	position: relative;
+}
+
+.logo-footer{
+	display: inline-block;
+	margin-bottom: 45px;
+}
+
+.footer-bottom{
+	border-top: 1px solid rgba($color-white, .3);
+}
+	
+.nav-footer{
+	list-style: none;
+	li{
+		display: inline-block;
+		padding: 0;
+		&:not(:last-child){
+			margin-right: 40px;
+		}
+		a{
+			font-size: 13px;
+			color:$color-white;
+		}
+		&:hover{
+			a{
+				text-shadow: 0 0 0 $color-white, 0 0 0.9px $color-white;
+				transition: text-shadow .25s linear;
+			    text-decoration: none;
+			}
+		}
+	}
+}
+
+.copyright{
+	font-size: 13px;
+}
+
+.custom-file-control:lang(en):empty:after{
+		content: "";
+}
+
+.custom-file-control:lang(en){
+	&:before {
+		content: "Attach file";
+	}
+}
+
+.custom-file-control{
+	width: 100px;
+	background: none;
+	border:none;
+	padding:5px 0;
+	&:before{
+	background: none;
+		border:none;
+		color:$color-white;
+		padding: 10px 0;
+}
+	.flaticon-attachment{
+		&:before{
+			color: $color-white;
+		}
+	}
+}
+
+.custom-file-input{
+	min-width: 1rem;
+	max-width: 100px;
+}
+
+.social{
+	float: right;
+	margin-top: 43px;
+	li{
+		display: inline-block;
+		list-style: none;
+		&:not(:last-child){
+			margin-right: 30px;
+		}
+	}
+	.icons{
+		color: $color-white;
+		&:before{
+			font-size: 14px;
+		}
+	}
+}
+
+.help-block{
+	position: absolute;
+	color: #ff5c5c;
+	font-size: 14px;
+}
+
+.form-control.error + .focus-underline-from-center:before{
+	background: #ff5c5c;
+}
+
+.error{
+	border-color:#ff5c5c !important;
+}

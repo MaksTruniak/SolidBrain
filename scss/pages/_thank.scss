@@ -1,0 +1,13 @@
+.page-thank{
+  .title-page{
+    span{
+      &:last-child{
+        font: 17px 'Roboto-Regular', sans-serif;
+      }
+    }
+  }
+}
+
+.bg-thank{
+  background-image: url(../img/bg-thank.png);
+}

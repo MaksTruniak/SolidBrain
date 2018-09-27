@@ -1,0 +1,294 @@
+.bg-project{
+  display: table;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.page-project{
+  .container{
+    position: relative;
+    z-index: 9999;
+    display: table;
+  }
+  .title-page{
+    font-family: 'Roboto-Bold', sans-serif;
+  }
+}
+
+.brief-desc{
+  font-size: 17px;
+  color: $color-white;
+  margin: 35px 0;
+}
+
+.offset-banner{
+  padding: 260px 0 116px;
+}
+
+.wrapper-device{
+  position: relative;
+}
+
+.pc{
+  background: url(../img/bg-mac.png) no-repeat;
+  padding: 18px 18px 155px 19px;
+}
+
+.tablet{
+  background: url(../img/bg-ipad.png) no-repeat;
+  padding:13px 26px 19px 29px;
+  position: absolute;
+  bottom: 13px;
+}
+
+.color-black-8{
+  color: rgba($color-black, 0.8);
+}
+
+.about-task{
+  padding: 95px 0 105px;
+}
+
+.offset-block{
+  padding: 30px 43px 55px;
+}
+
+.title-b-about{
+  font:19px 'Roboto-Medium', sans-serif;
+  color: $color-black;
+}
+
+.desc-about{
+  font-size: 17px;
+  color: rgba($color-black, 0.8);
+}
+
+.block-about-task{
+  box-shadow:0 5px 30px 5px rgba($color-black, 0.1);
+  border-radius: 10px;
+  background: #fff;
+  height: 100%;
+}
+
+.text-solution{
+  p{
+    font-size: 17px;
+    color: rgba($color-black, 0.8);
+    &:before{
+      width: 12px;
+      height: 12px;
+      border:2px solid;
+      border-radius: 50%;
+      content: "";
+      display: inline-block;
+      margin-right: 7px;
+    }
+  }
+}
+
+.wrapper-macbook{
+  float: left;
+  position: relative;
+}
+
+.bg-macbook{
+  background: url(../img/bg-macbook.png) no-repeat;
+  padding: 27px 165px 90px 0;
+  float: left;
+}
+
+.block-img{
+  position: absolute;
+  right: -15px;
+  top: 120px;
+}
+
+.text-promotions{
+  float: left;
+  .title-border-b{
+    &:before{
+      margin: 0;
+    }
+  }
+}
+
+
+.group-list{
+  list-style: none;
+  padding-left: 20px;
+}
+
+.list-item{
+  position: relative;
+  &:not(:last-child){
+    margin-bottom: 5px;
+  }
+  &:before{
+    width: 12px;
+    height: 12px;
+    border: 2px solid;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    top: 6px;
+  }
+}
+
+.img-design{
+  box-shadow:0px 12px 25px 3px rgba($color-black, 0.1);
+  margin-bottom: 30px;
+}
+
+.desc-design{
+  font-size: 17px;
+  color: rgba($color-black, 0.89);
+}
+
+.block-design{
+  padding: 0 35px;
+}
+
+.section-project{
+  padding-bottom: 110px;
+  .row{
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+
+.wrapper-arrow-project{
+  padding: 0 10px;
+  img{
+    border-radius: 7px;
+  }
+  >a{
+    position: relative;
+    display: block;
+    &:after{
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      content: "";
+      background: rgba($color-black, 0.5);
+      border-radius: 7px;
+    }
+  }
+}
+
+.name-project{
+  font: 29px 'Roboto-Medium', sans-serif;
+  color: $color-white;
+}
+
+.arrow-project{
+  font-size: 17px;
+  color: $color-white;
+}
+
+.block-arrow{
+  position: absolute;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 60px;
+  z-index: 999;
+}
+
+.line{
+  position: absolute;
+  z-index: -1;
+  span{
+    display: block;
+
+  }
+}
+
+.line-horizontally{
+  top: 50%;
+  left: -10%;
+  span {
+    width: 150px;
+    height: 4px;
+    &:not(:last-child){
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.line-vertical{
+  span {
+    width: 4px;
+    height: 150px;
+    float: left;
+    &:not(:last-child){
+      margin-right: 5px;
+    }
+  }
+}
+
+.img-technical-task{
+  position: relative;
+}
+
+.wrapper-disc{
+  position: absolute;
+  span{
+    width: 6px;
+    height: 6px;
+    display: block;
+    border-radius: 50%;
+    &:first-child {
+      margin-left: 19px;
+    }
+    &:nth-child(2) {
+      margin-left: 9px;
+    }
+  }
+}
+
+.img-resourses{
+  position: relative;
+}
+
+.wrapper-circle{
+  position: absolute;
+  span{
+    display: block;
+    border:2px solid;
+    float: left;
+    border-radius: 50%;
+
+  }
+}
+
+.disabled-arrow{
+  cursor: initial;
+  &:before{
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  display: block;
+    content: '';
+    z-index: 99999999;
+  }
+  >a{
+    &:after{
+      background: rgba(236, 236, 236, 0.66);
+    }
+  }
+}
+
+@import "project-style/asg.scss";
+@import "project-style/solidhome.scss";
+@import "project-style/sdc.scss";
+@import "project-style/azbuka.scss";

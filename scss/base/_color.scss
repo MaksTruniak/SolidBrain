@@ -1,0 +1,29 @@
+$color-white:#fff;
+$color-lochmara: #0583c4;
+$color-swamp: #001726;
+$color-denim: #1180C4;
+$color-alabaster:#fafafa;
+$color-black:#000;
+$color-blue:#1597e6;
+$color-gray:#e5e5e5;
+
+
+$color-nav-link: $color-white;
+
+$color-default: $color-lochmara;
+$color-second: $color-denim;
+
+$color-eclips:$color-swamp;
+
+$body-background: $color-alabaster;
+
+$title-border-color:$color-denim;
+
+
+.white {
+  color: $color-white !important;
+}
+
+.checked {
+  color: orange;
+}

@@ -1,0 +1,72 @@
+@import "../base/color";
+
+.navbar-nav{
+	.dropdown-toggle{
+		&:after{
+			border-top: .3em solid;
+			border-right: .2em solid transparent;
+			border-left: .2em solid transparent;
+			position: relative;
+			top: 3px;
+		}
+	}
+}
+
+.form-control{
+	background: none;
+	border-radius: 0;
+	font: 16px 'Roboto-Regular', sans-serif;
+	border: none;
+	color: $color-white;
+	border-bottom: 1px solid $color-second;
+	&:focus{
+		background: none;
+		 color: $color-white;
+
+	&::-webkit-input-placeholder { 
+  color: transparent;
+}
+&::-moz-placeholder { 
+  color: transparent;
+}
+&:-ms-input-placeholder { 
+  color: transparent;
+}
+&:-moz-placeholder {
+  color: transparent;
+}
+
+		&:before{
+			left: 0;
+			right: 0;
+		}
+	}
+		&:before{
+		content: "";
+		position: absolute;
+		left: 50%;
+		right: 50%;
+		bottom: 0;
+		background: $color-default;
+		height: 4px;
+		-webkit-transition-property: left, right;
+		transition-property: left, right;
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		-webkit-transition-timing-function: ease-out;
+		transition-timing-function: ease-out;
+	}
+
+	&::-webkit-input-placeholder { 
+  color: $color-white;
+}
+&::-moz-placeholder { 
+  color: $color-white;
+}
+&:-ms-input-placeholder { 
+  color: $color-white;
+}
+&:-moz-placeholder {
+  color: $color-white;
+}
+}

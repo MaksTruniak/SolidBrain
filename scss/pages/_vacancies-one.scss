@@ -1,0 +1,117 @@
+.bg-vacancies-one{
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.info-vacancies{
+  &-item{
+    p{
+      font-size: 17px;
+    }
+    .icons{
+        margin-right: 18px;
+    }
+  }
+}
+
+.title-h2{
+  font: 24px 'Roboto-Bold', sans-serif;
+  color: rgba($color-black, 0.8);
+  margin-bottom: 30px;
+}
+
+.list{
+  padding-left: 15px;
+    li{
+      color: $color-default;
+      span{
+        font: 17px 'Roboto-Light', sans-serif;
+        color: $color-black;
+      }
+      &:not(:last-child){
+        margin-bottom: 15px;
+      }
+    }
+}
+
+.wrapper-list{
+  &:not(:last-child){
+    margin-bottom: 85px;
+  }
+  &:last-child{
+    margin-bottom: 75px;
+  }
+}
+
+.wrapper-resume{
+  padding: 40px 28px;
+  .title-h2{
+        margin-bottom: 20px;
+  }
+    input.form-control{
+      height: 45px;
+    }
+    .form-control{
+      border: 1px solid #cccccc !important;
+      color: $color-black !important;
+      &:focus{
+        color: $color-black !important;
+      }
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color:  #cccccc !important;
+            font-family: Roboto-Regular,sans-serif;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+            font-family: Roboto-Regular,sans-serif;
+        color:  #cccccc !important;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+            font-family: Roboto-Regular,sans-serif;
+        color:  #cccccc !important;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+            font-family: Roboto-Regular,sans-serif;
+        color:  #cccccc !important;
+      }
+    }
+    .custom-file-control{
+      &:before{
+          color: #ccc !important;
+      }
+      .flaticon-attachment{
+        &:before{
+          color: #ccc !important;
+        }
+      }
+    }
+    .custom-file{
+      width: 100%;
+      margin-bottom: 15px;
+       border: 1px solid #cccccc !important;
+        height: 45px;
+      .custom-file-input{
+        max-width: 100%;
+      }
+      .custom-file-control{
+        margin: 0 auto;
+      }
+    }
+}
+
+.vacancies{
+  color: #007bed;
+  margin-bottom: 23px;
+}
+
+.wrapper-resume{
+  form{
+    span{
+      font-size: 16px;
+      color: rgba($color-black, 0.5);
+      margin-bottom: 35px;
+      display: block;
+    }
+  }
+}
+    
